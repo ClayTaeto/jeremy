@@ -13,7 +13,7 @@ angular.module('littlebrother.level1', ['ngRoute'])
 .controller('level1Ctrl', ["$scope",  function($scope) {
 
     ///do things here
-    $scope.name = "Level name, I think?"
+    $scope.name = ""
     
     
 }]);
