@@ -11,7 +11,8 @@ littlebrother.config(function($routeProvider) {
             controller: 'level1Ctrl'
         })
         .when('/Events', {
-            templateUrl: '/events.html',
+            templateUrl: 'Events/events.html',
+            controller: 'level1Ctrl'
         })
         // Add more pages by 
         // .when('/page', {
